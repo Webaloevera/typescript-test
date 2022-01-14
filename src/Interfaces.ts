@@ -1,4 +1,4 @@
-export   interface ITodo {
+export interface ITodo {
     id?: number;
     completed?: boolean;
     name: string;
@@ -8,4 +8,6 @@ export   interface ITodo {
     address: string;
     desc: string;
     country: string;
+    category?: number;
   }
+

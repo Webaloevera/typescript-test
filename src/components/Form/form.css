@@ -3,10 +3,12 @@
     max-width: 400px;
     gap: 10px 0px;
     margin:auto;
+    margin-bottom: 60px;
+    row-gap: 1em;
 }
 
 .form-add input, button {
-    padding: 15px;
+    padding: 5px;
     border: none;
     border-bottom: 2px solid #BB66F9;
     outline: none;

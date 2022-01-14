@@ -4,7 +4,7 @@ import { ITodo } from '../../Interfaces'
 
 interface ITodoProps {
   todos: ITodo[]
-  onRemove: (id: number) => void
+  onRemove: (id: number | undefined) => void
 }
 
 const TodoList: React.FC<ITodoProps> = ({ todos, onRemove }) => {

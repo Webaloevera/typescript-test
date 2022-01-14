@@ -9,7 +9,7 @@ type IFormProps = {
 const Form = ({ onFormSubmit }: IFormProps) => {
 
 
-  let inputs: ITodo = {
+  const inputs: ITodo = {
     name: "",
     image: "https://play-lh.googleusercontent.com/akv2Bdp7i5Vv-sl9FuP3_dhWpUO80zULf-Pkh6RFleomEp6pZorHuCNm3FbR9oAMunVK",
     phone: "",
@@ -17,9 +17,10 @@ const Form = ({ onFormSubmit }: IFormProps) => {
     address: "",
     desc: "",
     country: "",
+    category: 0,
   };
 
-  const [formState, setFormState] = useState<object>(inputs);
+  const [formState, setFormState] = useState<any>(inputs);
 
   const handleFormInputChange = useCallback(
     (event: React.ChangeEvent<HTMLInputElement>) => {

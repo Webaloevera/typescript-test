@@ -1,0 +1,25 @@
+.categories {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.categories p {
+    padding: 5px 25px;
+    border: dashed  2px rgb(132, 83, 223);
+}
+
+.categories p:hover {
+    transition: ease-in-out .3s;
+    background: rgb(132, 83, 223);
+    border: solid  2px rgb(132, 83, 223);
+    color: #fff;
+}
+
+.categories p.active {
+    transition: ease-in-out .3s;
+    background: rgb(132, 83, 223);
+    border: solid  2px rgb(132, 83, 223);
+    color: #fff;
+}
