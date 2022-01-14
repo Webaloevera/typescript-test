@@ -1,0 +1,40 @@
+.cards {
+    margin: 60px 0px;
+    width: 100%;
+    border: 1px solid #eee;
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns:1fr;
+  }
+  
+  .card {
+    border: 1px solid #eee;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+  }
+
+  .card img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+
+  .card__delete {
+    text-align: right;
+  }
+
+  .card__delete i {
+    padding: 5px 25px;
+    background-color: lightcoral;
+    margin-right: 15px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+  .card__delete i:hover {
+    transition: ease-in-out .3s;
+    background-color: lightpink;
+  }

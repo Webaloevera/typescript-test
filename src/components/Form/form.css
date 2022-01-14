@@ -1,0 +1,19 @@
+.form-add {
+    display: grid;
+    max-width: 400px;
+    gap: 10px 0px;
+    margin:auto;
+}
+
+.form-add input, button {
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid #BB66F9;
+    outline: none;
+}
+
+.form-add button {
+    background-color: #BB66F9;
+    color:ivory;
+    margin-top: 30px;
+}
