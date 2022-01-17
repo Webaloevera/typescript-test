@@ -1,5 +1,5 @@
 export interface ITodo {
-    id?: number;
+  readonly id?: number;
     completed?: boolean;
     name: string;
     image: string;
